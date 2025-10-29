@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Innovación Digital</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1><i class="fas fa-laptop-code"></i> INNOVACIÓN DIGITAL</h1>
+        </div>
+       
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="productos.html" class="nav-link active">Productos</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="main-title">Nuestros Productos</h1>
+        
+        <section class="filter-section">
+            <div class="filter-container">
+                <button class="filter-btn active">Todos</button>
+                <button class="filter-btn">Portátiles</button>
+                <button class="filter-btn">Componentes</button>
+                <button class="filter-btn">Periféricos</button>
+                <button class="filter-btn">Accesorios</button>
+                <button class="filter-btn">Software</button>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos...">
+                <i class="fas fa-search"></i>
+            </div>
+        </section>
+        
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <span class="product-badge">Agotado</span>
+                <img src="img/producto1.jpg" alt="Portátil Gaming" class="product-img">
+                <div class="product-info">
+                    <p class="product-category">Portátiles</p>
+                    <h3 class="product-title">Portátil Gaming ASUS ROG</h3>
+                    <div class="product-price">
+                        <span class="current-price">7000 cup</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>Almacen(24)</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-cart-plus"></i> Detalles
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="img/producto2.jpg" alt="Teclado Mecánico" class="product-img">
+                <div class="product-info">
+                    <p class="product-category">Periféricos</p>
+                    <h3 class="product-title">Teclado Mecánico RGB</h3>
+                    <div class="product-price">
+                        <span class="current-price">7000 cup</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(18)</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-cart-plus"></i> Detalles
+                    </button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="img/producto2.jpg" alt="Teclado Mecánico" class="product-img">
+                <div class="product-info">
+                    <p class="product-category">Software</p>
+                    <h3 class="product-title">Diseño Web</h3>
+                    <div class="product-price">
+                        <span class="current-price">7000 cup</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(18)</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-cart-plus"></i> Detalles
+                    </button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <img src="img/producto2.jpg" alt="Teclado Mecánico" class="product-img">
+                <div class="product-info">
+                    <p class="product-category">Periféricos</p>
+                    <h3 class="product-title">Teclado Mecánico RGB</h3>
+                    <div class="product-price">
+                        <span class="current-price">7000 cup</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(18)</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-cart-plus"></i> Detalles
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Más productos... -->
+        </div>
+        
+        <div class="pagination">
+            <button class="pagination-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class="pagination-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+   <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>CONTACTO</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Nuevitas, Camaguey</p>
+                <p><i class="fas fa-phone"></i> +53 54868569</p>
+                <p><i class="fas fa-envelope"></i> info@innovaciondigital.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>HORARIO</h3>
+                <p>Lunes a Viernes: 9:00 am - 4:00 pm</p>
+                <p>Sábados: 10:00am - 3:00 pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>REDES SOCIALES</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 INNOVACIÓN DIGITAL. Todos los derechos reservados. Paga con efectivo y transferencia móvil 💳</p>
+            
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
